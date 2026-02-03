@@ -78,4 +78,16 @@ aside a:hover {
 .view-on-github {
   display: none !important;
 }
+/* 🚫 Remove the yellow GitHub bar completely */
+header .fork,
+header .forkme,
+header .button,
+header a[href*="github.com"] {
+  display: none !important;
+}
+
+/* Also remove the yellow strip background */
+header::after {
+  display: none !important;
+}
 
