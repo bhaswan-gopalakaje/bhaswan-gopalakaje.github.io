@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* 🌌 Outer background: fade from inner purple to black */
+/* 🌌 Outer background fade */
 body {
   background: radial-gradient(circle at center, #1a2a6c 0%, #0d1333 40%, #000000 85%);
   color: #fff4c2;
@@ -22,22 +22,22 @@ section {
   background: transparent !important;
 }
 
-/* 🧭 Sidebar */
+/* 🧭 Sidebar background */
 aside {
   background: linear-gradient(180deg, #11152a, #0a0d1a);
 }
 
-/* Sidebar text white */
-aside, aside a, aside li {
+/* Sidebar text WHITE */
+aside, aside * {
   color: #ffffff !important;
 }
 
-/* Sidebar link hover */
+/* Sidebar hover */
 aside a:hover {
   color: #ffd86b !important;
 }
 
-/* Fix general text */
+/* General text fix */
 p, li, span, strong, em {
   color: #fff4c2 !important;
 }
@@ -61,33 +61,12 @@ ul li::marker {
   color: #ffcc33;
 }
 
-/* Remove footer credit */
+/* 🚫 Remove GitHub footer credit */
 footer, .site-footer {
   display: none;
 }
-/* 🔥 Force sidebar text to white */
-aside * {
-  color: #ffffff !important;
-}
 
-/* Keep hover highlight */
-aside a:hover {
-  color: #ffd86b !important;
-}
-/* 🚫 Hide "View on GitHub" button */
-.view-on-github {
+/* 🚫 Remove yellow "View on GitHub" bar (Leap Day specific) */
+header .downloads {
   display: none !important;
 }
-/* 🚫 Remove the yellow GitHub bar completely */
-header .fork,
-header .forkme,
-header .button,
-header a[href*="github.com"] {
-  display: none !important;
-}
-
-/* Also remove the yellow strip background */
-header::after {
-  display: none !important;
-}
-
