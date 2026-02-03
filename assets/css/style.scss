@@ -74,3 +74,8 @@ aside * {
 aside a:hover {
   color: #ffd86b !important;
 }
+/* 🚫 Hide "View on GitHub" button */
+.view-on-github {
+  display: none !important;
+}
+
