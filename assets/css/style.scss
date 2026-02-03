@@ -114,3 +114,18 @@ footer {
 .profile-pic {
   margin-top: 10px;
 }
+/* Style the top yellow action bar */
+header .downloads a {
+  background: #ffcc33 !important;
+  color: #000 !important;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+/* Hide default GitHub text */
+header .downloads a[href*="github"] {
+  display: none !important;
+}
