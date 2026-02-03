@@ -1,4 +1,3 @@
-# bhaswan-gopalakaje.github.io
 # *Bhaswan G - Portfolio*
 
 # Science and Computer Science Enthusiast
