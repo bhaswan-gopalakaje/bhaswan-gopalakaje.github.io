@@ -167,49 +167,4 @@ header .downloads a[href*="github"] {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-/* 🔁 Make layout flexible */
-.wrapper {
-  max-width: 1000px;
-  width: 95%;
-  margin: auto;
-}
-
-/* Make images scale nicely */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* About section responsive */
-@media (max-width: 900px) {
-  .about-section {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-/* Sidebar adjustments for smaller screens */
-@media (max-width: 900px) {
-  aside {
-    position: static;
-    width: 100%;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-}
-
-/* Reduce heading sizes on small screens */
-@media (max-width: 600px) {
-  h1 { font-size: 28px; }
-  h2 { font-size: 22px; }
-  h3 { font-size: 18px; }
-}
-
-/* Add breathing room inside card */
-@media (max-width: 600px) {
-  .wrapper {
-    padding: 20px;
-  }
-}
-
 
