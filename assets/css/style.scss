@@ -3,7 +3,43 @@
 
 @import "{{ site.theme }}";
 
-/* Hide GitHub Pages footer credit */
+/* 🌌 Purple–Blue Gradient Background */
+body {
+  background: linear-gradient(135deg, #2b1055, #1a2a6c, #6a11cb);
+  color: #fff4c2; /* warm soft yellow text */
+}
+
+/* Main content area background transparent */
+.wrapper, section {
+  background: transparent !important;
+}
+
+/* Sidebar background slightly darker */
+aside {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #ffd86b;
+}
+
+/* Links */
+a {
+  color: #ffcc33;
+}
+
+a:hover {
+  color: #fff176;
+}
+
+/* Bullet arrows / accents */
+ul li::marker {
+  color: #ffcc33;
+}
+
+/* Hide GitHub footer credit */
 footer, .site-footer {
   display: none;
 }
