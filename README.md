@@ -4,8 +4,7 @@
   <div class="about-text">
     <h2>About me : —</h2>
     <p>
-      I am a Science and Computer Science enthusiast currently in senior year (PCMC).
-      I enjoy programming, electronics, mathematics, and problem solving.
+     ----
     </p>
   </div>
 </div>
@@ -50,3 +49,6 @@
 - AISSE Topper Merit Award
 - Disciplinary Committee
 
+## Certifications
+## Interests
+## Languages
