@@ -58,6 +58,14 @@ Hi, I’m Bhaswan — a student deeply interested in Physics and Computer Scienc
 - Disciplinary Committee
 
 ## Certifications
+- IPhyC(International Physics Competitions)
+- Fortran
+- Computational Physics using Python
+
+## Activities
+- Attended online seminar on Scientific Documentation
+- Attended Webinar on basics of LaTex
+- Attended NASA Science 101
 
 ## Interests & Extracurriculars
 - STEM; Deutsch(MINT)
