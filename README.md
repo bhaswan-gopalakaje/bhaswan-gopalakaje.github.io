@@ -59,7 +59,7 @@ Hi, I’m Bhaswan — a student deeply interested in Physics and Computer Scienc
 
 ## Certifications
 - IPhyC(International Physics Competitions)
-- [Fortran Programming Certificate](/assets/images/BhaswanFortranCertificate.jpg){:target="_blank"}
+- [Fortran Programming Certificate](/assets/images/BhaswanFortranCertificate.jpeg){:target="_blank"}
 - Computational Physics using Python
 
 ## Activities
