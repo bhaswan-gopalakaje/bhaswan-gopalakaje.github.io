@@ -215,5 +215,62 @@ header .downloads a[href*="github"] {
     display: block;
   }
 }
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: #ffcc33;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* Mobile menu hidden by default */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 15px;
+  background: #11152a;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  z-index: 1000;
+}
+
+/* Show menu when checkbox checked */
+#menu-toggle:checked + .hamburger + .mobile-menu {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  color: white !important;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  color: #ffd86b !important;
+}
+
+/* Show hamburger only on small screens */
+@media (max-width: 900px) {
+  aside {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 
 
