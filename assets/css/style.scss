@@ -65,3 +65,23 @@ ul li::marker {
 footer {
   display: none !important;
 }
+/* About section layout */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+/* Smaller logo */
+.profile-pic {
+  width: 140px;
+  border-radius: 20%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Text area */
+.about-text {
+  flex: 1;
+}
+
