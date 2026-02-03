@@ -1,11 +1,14 @@
-<p align="left">
-  <img src="/assets/images/Bhaswanlogo.png" alt="Logo" width="220"
-       style="border-radius: 20%; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-</p>
+<div class="about-section">
+  <img src="/assets/images/Bhaswanlogo.png" alt="Bhaswan" class="profile-pic">
 
-
-
-## About me : ----
+  <div class="about-text">
+    <h2>About me : —</h2>
+    <p>
+      I am a Science and Computer Science enthusiast currently in senior year (PCMC).
+      I enjoy programming, electronics, mathematics, and problem solving.
+    </p>
+  </div>
+</div>
 
 ## Education (Ongoing)
 - Senior Year, PCMC
