@@ -1,4 +1,9 @@
-# *Bhaswan G - Portfolio*
+<p align="center">
+  <img src="/assets/images/Bhaswanlogo.png" alt="Logo" width="250">
+</p>
+
+# Welcome
+# *Bhaswan Gopalakaje - Portfolio*
 
 # Science and Computer Science Enthusiast
 
