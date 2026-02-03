@@ -3,43 +3,55 @@
 
 @import "{{ site.theme }}";
 
-/* 🌌 Purple–Blue Gradient Background */
+/* 🌑 Outer background (full black) */
 body {
-  background: linear-gradient(135deg, #2b1055, #1a2a6c, #6a11cb);
-  color: #fff4c2; /* warm soft yellow text */
+  background: #000000;
+  color: #fff4c2;
 }
 
-/* Main content area background transparent */
-.wrapper, section {
+/* 🌌 Main content card */
+.wrapper {
+  background: linear-gradient(135deg, #2b1055, #1a2a6c, #6a11cb);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* Make section transparent so wrapper shows */
+section {
   background: transparent !important;
 }
 
-/* Sidebar background slightly darker */
+/* Sidebar */
 aside {
-  background: rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(6px);
+  background: linear-gradient(180deg, #1a1a2e, #16213e);
+  color: #ffe082 !important;
+}
+
+/* FIX ALL TEXT COLORS */
+p, li, span, strong, em {
+  color: #fff4c2 !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5 {
-  color: #ffd86b;
+  color: #ffd86b !important;
 }
 
 /* Links */
 a {
-  color: #ffcc33;
+  color: #ffcc33 !important;
 }
 
 a:hover {
-  color: #fff176;
+  color: #fff176 !important;
 }
 
-/* Bullet arrows / accents */
+/* Bullet arrows */
 ul li::marker {
   color: #ffcc33;
 }
 
-/* Hide GitHub footer credit */
+/* Remove footer credit */
 footer, .site-footer {
   display: none;
 }
