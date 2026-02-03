@@ -1,3 +1,9 @@
+<div class="lang-toggle">
+  <button onclick="setLanguage('en')" class="lang-btn">EN</button>
+  <button onclick="setLanguage('de')" class="lang-btn">DE</button>
+</div>
+
+<!-- ------------------- -->
 <div class="about-section">
   <img src="/assets/images/Bhaswanlogo.png" alt="Bhaswan" class="profile-pic">
 
@@ -76,4 +82,25 @@ Hi, I’m Bhaswan — a student deeply interested in Physics and Computer Scienc
   <a href="https://instagram.com/bhaswan.g" target="_blank" class="contact-btn">Instagram</a>
 Email: bhaswan.gopalakaje@gmail.com
 </div>
+<!-- ---------------- -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {pageLanguage: 'en', includedLanguages: 'de,en'},
+    'google_translate_element'
+  );
+}
+
+function setLanguage(lang) {
+  var select = document.querySelector(".goog-te-combo");
+  if (select) {
+    select.value = lang;
+    select.dispatchEvent(new Event('change'));
+  }
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
