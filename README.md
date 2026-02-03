@@ -1,3 +1,9 @@
+<div class="custom-links">
+  <a href="https://www.linkedin.com/in/bhaswang" target="_blank">LinkedIn</a>
+  <a href="https://instagram.com/bhaswan.g" target="_blank">Instagram</a>
+  <a href="bhaswan.gopalakaje@gmail.com">Email</a>
+</div>
+
 <div class="about-section">
   <img src="/assets/images/Bhaswanlogo.png" alt="Bhaswan" class="profile-pic">
 
