@@ -192,9 +192,47 @@ header .downloads a[href*="github"] {
   box-shadow: 0 3px 8px rgba(0,0,0,0.4);
 }
 
+/* Hide Google translate top banner */
 .goog-te-banner-frame.skiptranslate {
   display: none !important;
 }
+
 body {
   top: 0px !important;
 }
+
+/* Hide the small Google tooltip */
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+/* Language toggle default (desktop) */
+.lang-toggle {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* 📱 Move toggle on small screens */
+@media (max-width: 768px) {
+  .lang-toggle {
+    top: auto;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .lang-toggle {
+    top: auto;
+    bottom: 15px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
