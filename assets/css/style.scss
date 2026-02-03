@@ -61,10 +61,12 @@ ul li::marker {
   color: #ffcc33;
 }
 
-/* 🚫 Remove GitHub footer credit */
-footer, .site-footer {
-  display: none;
+/* Nuclear option — hides the bar containing the GitHub button */
+header p,
+header div.actions {
+  display: none !important;
 }
+
 
 /* 🚫 Remove yellow "View on GitHub" bar (Leap Day specific) */
 header .downloads {
