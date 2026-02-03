@@ -129,3 +129,19 @@ header .downloads a {
 header .downloads a[href*="github"] {
   display: none !important;
 }
+/* Position custom links inside header bar */
+.custom-links {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+}
+
+.custom-links a {
+  background: #ffcc33;
+  color: black !important;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
