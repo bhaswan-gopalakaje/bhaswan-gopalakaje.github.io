@@ -4,4 +4,5 @@ theme: jekyll-theme-minimalist
 #logo: /assets/images/logo.png
 # Optional settings
 show_downloads: false
-
+plugins:
+  - jekyll-feed
