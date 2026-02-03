@@ -167,5 +167,34 @@ header .downloads a[href*="github"] {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+// togglt
+.lang-toggle {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+}
 
+.lang-btn {
+  background: linear-gradient(135deg, #ffcc33, #ffb300);
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 14px;
+}
 
+.lang-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
