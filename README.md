@@ -33,7 +33,7 @@
 - **Fortran Projects**: Worked on numerous Fortran Projects, also I have replicated some of the complex projects.
 
 ## Achievements
-## Freshmen & Sophomore year
+- "Freshmen & Sophomore Years"
 - Best outgoing student award
 - I have been SCHOOL STUDENT COUNCIL LEADER.
 - I have been SCHOOL HOUSE/CLUB CAPTAIN.
@@ -42,7 +42,8 @@
 - 1st Place in Chess Tournament.
 - 1st Place in Athletics (Relay).
 - 2nd Place in Soccer.
-## Junior Year
+
+- "Junior & Senior Years"
 - AISSE Topper Merit Award
 - Disciplinary Committee
 
