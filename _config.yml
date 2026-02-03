@@ -2,8 +2,8 @@ title: Bhaswan Gopalakaje
 description: Portfolio
 logo: /assets/images/Bhaswanlogo.png
 theme: jekyll-theme-leap-day
-
-show_downloads: false
-
+show_downloads: true
+github:
+  repository_url: https://github.com/YOUR-USERNAME
 plugins:
   - jekyll-feed
