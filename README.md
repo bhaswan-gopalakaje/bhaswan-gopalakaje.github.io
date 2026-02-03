@@ -1,3 +1,21 @@
+<input type="checkbox" id="menu-toggle" />
+<label for="menu-toggle" class="hamburger">☰</label>
+
+<nav class="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#interests">Interests</a>
+  <a href="#languages">Languages</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+<!-- ------------ -->
+
 <div class="hamburger" onclick="toggleMenu()">☰</div>
 
 <nav id="mobileMenu" class="mobile-menu">
