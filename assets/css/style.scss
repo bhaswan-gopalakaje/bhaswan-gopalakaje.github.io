@@ -3,9 +3,9 @@
 
 @import "{{ site.theme }}";
 
-/* 🌑 Outer background (full black) */
+/* 🌌 Outer background: fade from inner purple to black */
 body {
-  background: #000000;
+  background: radial-gradient(circle at center, #1a2a6c 0%, #0d1333 40%, #000000 85%);
   color: #fff4c2;
 }
 
@@ -14,20 +14,30 @@ body {
   background: linear-gradient(135deg, #2b1055, #1a2a6c, #6a11cb);
   border-radius: 12px;
   padding: 20px;
+  box-shadow: 0 0 25px rgba(106, 17, 203, 0.4);
 }
 
-/* Make section transparent so wrapper shows */
+/* Make section transparent */
 section {
   background: transparent !important;
 }
 
-/* Sidebar */
+/* 🧭 Sidebar */
 aside {
-  background: linear-gradient(180deg, #1a1a2e, #16213e);
-  color: #ffe082 !important;
+  background: linear-gradient(180deg, #11152a, #0a0d1a);
 }
 
-/* FIX ALL TEXT COLORS */
+/* Sidebar text white */
+aside, aside a, aside li {
+  color: #ffffff !important;
+}
+
+/* Sidebar link hover */
+aside a:hover {
+  color: #ffd86b !important;
+}
+
+/* Fix general text */
 p, li, span, strong, em {
   color: #fff4c2 !important;
 }
@@ -46,7 +56,7 @@ a:hover {
   color: #fff176 !important;
 }
 
-/* Bullet arrows */
+/* Bullet markers */
 ul li::marker {
   color: #ffcc33;
 }
