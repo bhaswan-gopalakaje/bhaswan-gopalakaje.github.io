@@ -2,10 +2,12 @@
   <img src="/assets/images/Bhaswanlogo.png" alt="Bhaswan" class="profile-pic">
 
   <div class="about-text">
-    <h2>About me : Hi, I’m Bhaswan — a student deeply interested in Physics and Computer Science with a natural curiosity for how things work. I always enjoy tinkering, exploring new ideas, and constantly learning. Whether it’s solving problems, building projects, or diving into new concepts, I’m always ready to put in the work and grow.</h2>
-    <p>
-     ----
-    </p>
+    <h2>About Me</h2>
+
+<p>
+Hi, I’m Bhaswan — a student deeply interested in Physics and Computer Science with a natural curiosity for how things work. I always enjoy tinkering, exploring new ideas, and constantly learning. Whether it’s solving problems, building projects, or diving into new concepts, I’m always ready to put in the work and grow.
+</p>
+
   </div>
 </div>
 
