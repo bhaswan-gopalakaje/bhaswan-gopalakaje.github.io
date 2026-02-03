@@ -100,15 +100,13 @@ footer {
   .wrapper {
     padding: 15px;
   }
-}
-/* 📱 Extra spacing on mobile so content doesn't touch edges */
+/* 📱 More inner padding so text doesn't hug the glowing border */
 @media (max-width: 768px) {
-  body {
-    padding: 0 10px;
+  .wrapper {
+    padding: 25px !important;
   }
 
-  .wrapper {
-    margin: 10px 0;
-    border-radius: 14px;
+  section {
+    padding: 0 5px;
   }
 }
