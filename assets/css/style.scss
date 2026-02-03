@@ -61,14 +61,7 @@ ul li::marker {
   color: #ffcc33;
 }
 
-/* Nuclear option — hides the bar containing the GitHub button */
-header p,
-header div.actions {
-  display: none !important;
-}
-
-
-/* 🚫 Remove yellow "View on GitHub" bar (Leap Day specific) */
-header .downloads {
+/* 🚫 Remove Leap Day footer credit */
+footer {
   display: none !important;
 }
