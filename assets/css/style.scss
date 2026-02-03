@@ -65,3 +65,12 @@ ul li::marker {
 footer, .site-footer {
   display: none;
 }
+/* 🔥 Force sidebar text to white */
+aside * {
+  color: #ffffff !important;
+}
+
+/* Keep hover highlight */
+aside a:hover {
+  color: #ffd86b !important;
+}
