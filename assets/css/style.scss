@@ -144,4 +144,28 @@ header .downloads a[href*="github"] {
   margin-left: 8px;
   font-weight: bold;
 }
+/* Contact section */
+.contact-section {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.contact-btn {
+  background: linear-gradient(135deg, #ffcc33, #ffb300);
+  color: black !important;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
 
