@@ -16,19 +16,6 @@
 
 <!-- ------------ -->
 
-<div class="hamburger" onclick="toggleMenu()">☰</div>
-
-<nav id="mobileMenu" class="mobile-menu">
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#achievements">Achievements</a>
-  <a href="#certifications">Certifications</a>
-  <a href="#interests">Interests</a>
-  <a href="#languages">Languages</a>
-  <a href="#contact">Contact</a>
-</nav>
 
 
 <div class="about-section">
@@ -105,12 +92,4 @@
   <a href="https://instagram.com/bhaswan.g" target="_blank" class="contact-btn">Instagram</a>
 - Email: bhaswan.gopalakaje@gmail.com
 </div>
-
-<script>
-function toggleMenu() {
-  var menu = document.getElementById("mobileMenu");
-  menu.style.display = menu.style.display === "block" ? "none" : "block";
-}
-</script>
-
 
