@@ -2,8 +2,7 @@
   <img src="/assets/images/Bhaswanlogo.png" alt="Logo" width="220"
        style="border-radius: 20%; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 </p>
-# Welcome
-# *Bhaswan Gopalakaje - Portfolio*
+
 
 # Science and Computer Science Enthusiast
 
