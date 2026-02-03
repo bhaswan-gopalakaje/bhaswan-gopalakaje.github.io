@@ -62,11 +62,11 @@
 
 
 ## Languages
-English: Proficient, Independent language usage
-German(Deutsch): Elementary-Intermediate
-Hindi: Elementary
-Kannada: Native
-Sanskrit: Elementary-Intermediate
+- English: Proficient, Independent language usage
+- German(Deutsch): Elementary-Intermediate
+- Hindi: Elementary
+- Kannada: Native
+- Sanskrit: Elementary-Intermediate
 
 ## Contact Me
 <div class="contact-section">
